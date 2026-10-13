@@ -578,7 +578,7 @@ def adaptive_loss(predictions, targets, uncertainty_scores=None, alpha=0.1):
 # ==================== 数据加载 ====================
 def load_data():
     # 使用power.xlsx（包含Total solar irradiance特征）
-    data = pd.read_excel('/Users/albert/Downloads/贝叶斯优化-TCN-BiLSTM-attention/power.xlsx')
+    data = pd.read_excel('power.xlsx')
     
     # 提取Total solar irradiance和Power
     irradiance_col = 'Total solar irradiance (W/m2)'
