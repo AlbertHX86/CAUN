@@ -50,4 +50,4 @@ pip install torch scikit-learn pandas numpy matplotlib openpyxl
 python final_comparison.py
 ```
 
-`final_comparison.py` 的 `load_data()` 里，数据路径是本机的绝对路径（`/Users/albert/Downloads/...`），运行前要改成 `power.xlsx`。
+在仓库根目录运行，脚本会读取同目录下的 `power.xlsx`，结果文件也写在这个目录。
